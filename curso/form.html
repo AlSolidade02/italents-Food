@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <!--Atributos Form-->
+        <!--atibuto autocomplete="on" ele sugere dados que já foi utilizado pelo usuario em outros sites-->
+
+        <!--O atributo action é a rota onde os dados do formulario será gravado-->
+        <!--O atributo method é o metodo que esses dados será submitidos, atualmente temos duas opção get ou post-->
+        <!--taeget é a forma que vai abri o formulario opções: "__blank" abre uma nova aba-->
+
+
+    <!--Tags-->
+        <!--<input-->
+        
+            <!--placeholder - texto que aparece quando o campo está vazio-->
+            <!--maxlength - quantidade máxima de caracteres;-->
+            <!-- required - indica que o campo é necessário, não permitindo
+            submeter o formulário se o campo estiver em branco;-->
+            <!-- disabled - deixa o campo desabilitado;-->
+            <!--readonly - impede edições no campo, permitindo apenas que o
+            usuário leia o valor-->
+        <!--Text Area-->
+            <!--placeholder - texto que aparece quando o campo está vazio-->
+            <!--maxlength - quantidade máxima de caracteres;-->
+            <!-- required - indica que o campo é necessário, não permitindo
+            submeter o formulário se o campo estiver em branco;-->
+            <!-- disabled - deixa o campo desabilitado;-->
+            <!--readonly - impede edições no campo, permitindo apenas que o
+            usuário leia o valor-->
+            
+        
+        
+
+
+
+    <form action="" accept-charset="UTF-8" autocomplete="on">
+
+        <fieldset>
+
+            <label for="nome">nome</label>
+            <input type="text" id="nome">
+            <input type="time">
+            <input type="checkbox" name="homem" id="opcao">1
+            <input type="checkbox" name="mulher" id="opcao">2
+
+            <input type="radio" name="sexo" checked="checked">homem
+            <input type="radio" name="sexo" checked="checked">mulher
+            <input type="number">
+
+            <select name="opcao" id="">
+                <option value="html">html</option>
+                <option value="css">css</option>
+                <option value="js">js</option>
+            </select>
+
+            <input list="navegador">
+            <datalist id= "navegador">
+                <option value="mozila">mozila</option>
+                <option value="IE">ie</option>
+                <option value="chrome">chrome</option>
+            </datalist>
+
+
+        </fieldset>
+
+
+        
+
+    </form>
+    
+</body>
+</html>
